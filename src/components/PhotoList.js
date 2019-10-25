@@ -17,13 +17,17 @@ export default function PhotoList() {
                 //console.log("data not found", error)
             });
     }, [])
+
+    
     return (
         <div className="container">
             <div className="potd">
 
-                <PhotoCard key={photos.date} copyright={photos.copyright} title={photos.title} explain={photos.explanation} Img={photos.hdurl} />
+     <PhotoCard copyright={photos.copyright} title={photos.title} explain={photos.explanation} Img={photos.hdurl} /> 
             </div>
         </div>
     )
+
+    
 }
 
