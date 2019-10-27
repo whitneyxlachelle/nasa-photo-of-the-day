@@ -23,7 +23,7 @@ export default function PhotoList() {
         <div className="container">
             <div className="potd">
 
-     <PhotoCard copyright={photos.copyright} title={photos.title} explain={photos.explanation} Img={photos.hdurl} /> 
+     <PhotoCard copyright={photos.copyright} title={photos.title} explain={photos.explanation} Img={photos.hdurl} date={photos.date} /> 
             </div>
         </div>
     )
